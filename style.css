@@ -48,6 +48,27 @@ header {
   text-align: center;
 }
 
+header h2 {
+  margin-inline: auto;
+  width: fit-content;
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+  border: 1px solid var(--card-title-color-border);
+  border-radius: 6px;
+  padding: 8px 16px;
+  margin-bottom: 53px;
+  color: #f7dd43;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+header span {
+  color: #e1e1e6;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
 ul {
   list-style: none;
 }
